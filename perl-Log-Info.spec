@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Log
-%define	pnam	Info
+%define		pdir	Log
+%define		pnam	Info
 Summary:	Log::Info - single interface for log output
 Summary(pl):	Log::Info - pojedynczy interfejs do tworzenia logów
 Name:		perl-Log-Info
