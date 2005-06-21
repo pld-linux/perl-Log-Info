@@ -15,9 +15,6 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	80c2e6320e22e25310790d8a34cc65f6
-BuildRequires:  perl-Class-MethodMaker >= 1.02
-BuildRequires:	perl-IPC-Run
-BuildRequires:	perl-Term-ProgressBar
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
