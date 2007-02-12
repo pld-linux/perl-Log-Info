@@ -6,7 +6,7 @@
 %define		pdir	Log
 %define		pnam	Info
 Summary:	Log::Info - single interface for log output
-Summary(pl):	Log::Info - pojedynczy interfejs do tworzenia logów
+Summary(pl.UTF-8):   Log::Info - pojedynczy interfejs do tworzenia logÃ³w
 Name:		perl-Log-Info
 Version:	1.19
 Release:	2
@@ -28,11 +28,11 @@ Each instance of Log::Info is intended to be an output for a
 particular type of log; some defaults are provided, and custom ones
 may be generated.
 
-%description -l pl
-Log::Info ma byæ pojedynczym interfejsem do wszystkich rodzajów
-logowania. Ka¿da instancja Log::Info ma byæ wyj¶ciem pewnego rodzaju
-logów; za³±czone jest trochê ustawieñ domy¶lnych, mo¿na wygenerowaæ
-w³asne.
+%description -l pl.UTF-8
+Log::Info ma byÄ‡ pojedynczym interfejsem do wszystkich rodzajÃ³w
+logowania. KaÅ¼da instancja Log::Info ma byÄ‡ wyjÅ›ciem pewnego rodzaju
+logÃ³w; zaÅ‚Ä…czone jest trochÄ™ ustawieÅ„ domyÅ›lnych, moÅ¼na wygenerowaÄ‡
+wÅ‚asne.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
