@@ -8,13 +8,13 @@
 Summary:	Log::Info - single interface for log output
 Summary(pl.UTF-8):	Log::Info - pojedynczy interfejs do tworzenia logów
 Name:		perl-Log-Info
-Version:	1.19
-Release:	2
+Version:	1.21
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	80c2e6320e22e25310790d8a34cc65f6
+# Source0-md5:	91d8467613193967ff4286386d015f44
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-Class-MethodMaker
