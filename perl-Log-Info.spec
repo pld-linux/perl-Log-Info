@@ -11,7 +11,7 @@ Summary:	Log::Info - single interface for log output
 Summary(pl.UTF-8):	Log::Info - pojedynczy interfejs do tworzenia logów
 Name:		perl-Log-Info
 Version:	1.21
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -45,6 +45,8 @@ sed -i -e '/use IO::Pipe/s,1.121,1.13,' lib/Log/Info.pm
 # fail on carme
 rm t/fork_log.t
 rm t/single-die.t
+# fail on builders
+rm t/syslog.t
 
 %build
 %{__perl} Makefile.PL \
