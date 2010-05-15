@@ -21,6 +21,7 @@ BuildRequires:	perl-Class-MethodMaker
 BuildRequires:	perl-Term-ProgressBar
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	util-linux
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
