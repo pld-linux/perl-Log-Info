@@ -3,10 +3,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Log
 %define		pnam	Info
+%include	/usr/lib/rpm/macros.perl
 Summary:	Log::Info - single interface for log output
 Summary(pl.UTF-8):	Log::Info - pojedynczy interfejs do tworzenia logów
 Name:		perl-Log-Info
@@ -17,6 +17,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	91d8467613193967ff4286386d015f44
+URL:		http://search.cpan.org/dist/Log-Info/
 BuildRequires:	perl-Class-MethodMaker
 BuildRequires:	perl-Term-ProgressBar
 BuildRequires:	perl-devel >= 1:5.8.0
