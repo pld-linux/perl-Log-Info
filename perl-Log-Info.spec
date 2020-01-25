@@ -6,7 +6,6 @@
 
 %define		pdir	Log
 %define		pnam	Info
-%include	/usr/lib/rpm/macros.perl
 Summary:	Log::Info - single interface for log output
 Summary(pl.UTF-8):	Log::Info - pojedynczy interfejs do tworzenia logów
 Name:		perl-Log-Info
